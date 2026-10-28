@@ -3,9 +3,9 @@
 #SBATCH --job-name=BHP_batch_1
 # ==== SLURM JOB SETTINGS ====
 #Define how many nodes you need. Each node has 64 cores.
-#SBATCH -N 1 -n 2
+#SBATCH -N 6 -n 6
 # time needed to execute, in days-hours:minutes:seconds
-#SBATCH --time=24:00:00
+#SBATCH --time=10:00:00
 # How much memory you need.
 # --mem will define memory per node and
 # --mem-per-cpu will define memory per CPU/core. Choose one of those.
